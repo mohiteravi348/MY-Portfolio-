@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.sidebar{
+    /* position: absolute; */
+     background-color: rgb(32, 8, 8);
+    color:white;
+    /* width: 434px; */
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 120vh;
+    transition: transform 0.3s ease-in;
+
+}
+.sidebar nav{
+    padding: 43px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: rgb(253, 247, 247);
+
+}
+.main{
+    /* background-color: yellow; */
+
+    width: 221vw;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+.container{
+    display: flex;
+    
+}
+
+.infocontainer{
+    /* background-color: rgb(255, 0, 128);  */
+    height: 50vh;
+    width :80vw;
+    margin: 144px auto;
+    display: flex;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.hello{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 20px;
+}
+.moreabout{
+font-size: 22px;
+margin: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.buttons{
+     margin-top: 34px;
+     cursor: pointer;
+     /* background-color: blue; */
+
+}
+.buttons button{
+    /* font-size: small; */
+padding: 9px 14px; 
+border-radius: 22px;
+color: white;
+background-color: blue;
+font-weight: bold;
+border-color: black;
+font-size: 15px;
+margin: 0 3px;
+cursor: pointer;
+
+
+}
+.blogbuttons{ 
+    margin-top: 34px;
+    cursor: pointer;}
+.blogbuttons button:hover{
+    color: rgb(29, 22, 10);
+    background-color: white;
+}
+.buttons button:hover{
+    color: rgb(29, 22, 10);
+background-color: white;
+
+}
+
+.devpic img{
+    height: 58vh;
+    margin: 20%;
+    
+    /* justify-content: space-around */
+
+}
+.contactform{
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+ padding: 0 34px;
+ padding-top: 144px;
+ margin: 0 88px;
+
+}
+.contactform h1{
+    font-family:'Times New Roman', Times, serif;
+    /* background-color: aqua; */
+    text-align: -webkit-match-parent;
+    box-sizing: border-box;
+    
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+   width: 26vw;
+   border-radius: 5px ;
+   margin: 6px 0 0 0;
+   padding: 3px;
+
+    
+}
+
+#emailHelp{
+font-size: 12px;
+color: midnightblue;
+margin: 0 5px;
+padding: 3px 0 0 0;
+width: fit-content;
+}
+#form-check {
+    flex-direction: row;
+
+}
+#form-check input{
+width: 24px;
+margin: 3px 0;
+}
+.buttons{
+    color: rgb(29, 22, 10);
+    /* background-color: red; */
+    width: fit-content;
+}
+/* .BUT{
+    padding: 9px 14px; 
+    border-radius: 10px;
+    color: white;
+    background-color: #f8f8fd;
+    font-weight: bold;
+    border-color: black;
+    font-size: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    width: max-content;
+    
+} */
+/* .but{
+    background-color: blue;
+}
+.but:hover{
+    color: rgb(29, 22, 10);
+    background-color: red;
+    cursor: pointer;
+} */
+.My10th{
+    font-style:inherit;
+    text-underline-offset: 1px;
+    font-size: unset;
+    
+}
+.My12th{
+    font-style:inherit;
+    text-underline-offset: 1px;
+    font-size: unset;
+    
+}
+.blogitem{
+margin-top: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blogcontainer h1{ 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 21px;
+}
+.blogcontainer{
+    margin: 0 88px;
+}
+.blogitem p{
+    font-family:cursive;
+ 
+}
+.introcontainer{
+margin: 0 88px;
+}
+.introcontainer h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 12px; 
+
+}
+.introcontainer p{
+    font-family:cursive;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 264px;
+    background-color: green;
+}
+.fifty{
+    width: 132px;
+    background-color: orange;
+}
+.T5{
+    width: 66px;
+    background-color: yellow;
+}
+.S5{
+    width: 200px;
+    background-color: yellowgreen;
+}
+.ninty{
+    width: 230px;
+    background-color: palegreen;
+}
+@media (max-width:988px)
+{
+    /* .sidebarGo{
+        transform: translate(-443px,0px);
+        position:absolute
+    } */
+    .devpic{
+        display: none;
+    }
+    .introcontainer,.blogcontainer,.contactform{
+        margin: 50px 8px;
+    }
+
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position:absolute
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+   
+    left: 10px;
+}
+.cross{
+    display: inline;
+    padding: -30px;
+    margin: -37px;
+    margin-top: -5px;
+
+   color: rgb(15, 36, 18);
+  position: absolute;
+    left: 151px;
+    margin: -7px;
+    background-color: rgb(107, 104, 104);
+    size: 1px;
+}
+
+/* ******************************************************** */
+.skills-container{
+height: 250px;
+}
+.skills-container{
+    position: relative;
+    display: flex;
+    padding: 4rem;
+    margin: rem auto;
+    gap: 30px;
+    /* gap:30px; */
+    
+  }
+
+.skill-container-left{
+  width:50%;
+  display:flex;
+  flex-direction:column;
+}
+
+.skill-container-right{
+  display:flex;
+  flex-wrap:wrap;
+  width:50%;
+  position:relative;
+  gap:2rem;
+  justify-content: center;
+}
+
+.skill-fade-text{
+  position:absolute;
+  font-size:15em;
+  font-style:bold;
+  color:rgb(231,231,231);
+  bottom:-34.5%;
+  right:-25%;
+  user-select:none;
+  overflow-y:hidden;
+}
+
+.blob-style{
+  position:absolute;
+  top:50%;
+  left:50%;
+  z-index:-5;
+  transform:translate(-50%, -50%);
+  animation: blobAnimate 3s linear infinite;
+}
+
+@keyframes blobAnimate {
+  50%{
+    top:54%;
+    left:46%;
+  }
+}
+
+.skills-logo{
+  width:90px;
+  transition:all 0.5s;
+}
+
+.skills-logo:hover{
+  transform:scale(1.2);
+}
+
+.skill-heading{
+  font-size:50px;
+  font-style: bold;
+  color: var(--bgOrange);
+  line-height: 50px;
+}
+
+.caps{
+  font-size:90px;
+}
+
+.skill-subHeading{
+  margin-top: 1rem;
+  width:85%;
+  text-align: justify;
+}
+
+.skill-subHeading p{
+  margin:15px 0;
+}
+.sk{
+    padding: 4px 8px; 
+    border-radius: 8px;
+    color: white;
+    background-color: #f8f8fd;
+    font-weight: bold;
+    border-color: black;
+    font-size: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    width: max-content;
+    
+}
+
+.sk :hover{
+    cursor: pointer;
+    background-color: rgb(245, 242, 242);
+    border-radius: 1px;
+    /* color: rgb(2, 2, 26); */
+
+}
+.text{
+    color: rgb(0, 0, 0);
+}
+body {
+    background-color: rgb(117, 156, 240)
+}
+
+.name {
+  
+   
+    /* transform: translate(-50%, -50%); */
+    cursor: grab;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px; /* Change the font size */
+    color: #13161d; /* Change the font color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+}
+.about {
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 25px; /* Change the font size */
+    color: #180101; /* Change the font color */
+    text-transform: uppercase; /* Make the text uppercase */
+    margin-top: 10px; /* Add some top margin to separate it from the name */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.marks {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+.marks h2:hover {
+    color: #ff6600; /* Change to your desired hover color */
+    cursor: pointer;
+}
+
+
+.marks h2 {
+    font-size: 24px;
+    color: #3366cc;
+}
+
+.marks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.marks li {
+    margin-bottom: 10px;
+}
+.marks {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.marks h2 {
+    font-size: 24px;
+    color: #3366cc;
+}
+.centered-table {
+    margin: 0 auto; /* Center the table horizontally */
+    display: table;
+    text-align: center; /* Center the table content horizontally */
+    vertical-align: middle; /* Center the table content vertically */
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* -------------------------------------------------
+ */
+ .view-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e26715;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-button:hover {
+    background-color: #faf2f7;
+}
+/* ----------------
+ */
+ .semester {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.semester h2 {
+    font-size: 24px;
+    color: #3366cc;
+    margin-top: 0;
+}
+
+.semester table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.semester table th, .semester table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.semester table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.semester h2:hover {
+    color: #ff6600; /* Change to your desired hover color */
+    cursor: pointer;
+}
+
+.BUT{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3366cc;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.BUT:hover {
+   background-color: #ff6600;
+}
+.but {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3366cc;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.but:hover {
+    color: #ff6600;
+    background-color: #2856b3;
+}
+.sk {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    /* color: #fff; */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.sk:hover{
+    background-color: #f2f2f2;
+}
+
+.text:hover {
+background-color: #f3f5f8;
+}
+
+
+
+
